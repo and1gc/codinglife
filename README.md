@@ -10,27 +10,3 @@
 ### 4.计算机网络
 ### 5.设计模式
 ### 6.c++
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-!(https://raw.githubusercontent.com/and1gc/codinglife/master/zhanghao.jpg）
-
-
-
