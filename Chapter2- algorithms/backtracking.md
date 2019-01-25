@@ -2,10 +2,10 @@
     一般适用于求解那些有潜在的大量解，但有限个数解已经检查过的问题。
 
     典型问题如下：
-    1. [三着色问题]（https://github.com/and1gc/codinglife/blob/master/Chapter2-%20algorithms/3_colorrec.cpp）
-    2. 八皇后问题
-    3. 矩阵中的路径
-    4. 机器人的移动范围
+   1. [三着色问题]（https://github.com/and1gc/codinglife/blob/master/Chapter2-%20algorithms/3_colorrec.cpp）
+   2. 八皇后问题
+   3. 矩阵中的路径
+   4. 机器人的移动范围
     
     处理这类的问题有通用的原型算法，一个是递归（Backtrackrec）,另一个是迭代（Backtrackiter）.
     
