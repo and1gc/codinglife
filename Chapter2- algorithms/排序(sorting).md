@@ -11,6 +11,8 @@
 ### 5冒泡排序
 ### 6快速排序
 ### 7归并排序
+[c++实现](https://github.com/and1gc/codinglife/blob/master/Chapter2-%20algorithms/merge_sort.cpp)
+[性能分析](https://github.com/and1gc/codinglife/blob/master/Chapter2-%20algorithms/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E5%88%86%E6%9E%90.md)
 ### 8计数排序
 ### 9基数排序
 
