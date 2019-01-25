@@ -7,12 +7,12 @@ using E = pair<int, int>;
 
 enum NODE { a,b,c,d,e,N};
 enum COLOR { NONE,RED, GREEN, BLUE };
-//ÅĞ¶ÏµÚk¸öµãÊÇ²»ÊÇÓĞĞ§µÄ×ÅÉ«
+//åˆ¤æ–­ç¬¬kä¸ªç‚¹æ˜¯ä¸æ˜¯æœ‰æ•ˆçš„ç€è‰²
 bool isvalid(int k,const vector<E> &edge,vector<COLOR> &result)
 {
     for (const auto &p : edge)
     {
-        //ÕÒµ½½áµãkµÄÏàÁÚ½áµã
+        //æ‰¾åˆ°ç»“ç‚¹kçš„ç›¸é‚»ç»“ç‚¹
         if (p.first == k || p.second==k)
         {
             if (result[p.first] == result[p.second])
@@ -39,10 +39,10 @@ void graphcolor(const vector<E> &edge, int k,bool &flag,vector<COLOR> &result)
 }
 int main()
 {
-    //¶¨ÒåÍ¼µÄ×´Ì¬
+    //å®šä¹‰å›¾çš„çŠ¶æ€
     //vector<E> edge = { E{0,1},E{0,3},E{0,5},E{1,2},E{1,6},E{2,3},E{3,4},{4,6},{5,6} };
     vector<E> edge= {E{a,b},E{a,c},E{b,d},E{b,e},E{d,e},E{d,c},E{e,c}};
-    //¼ÇÂ¼×îÖÕµÄ½á¹û
+    //è®°å½•æœ€ç»ˆçš„ç»“æœ
     vector<COLOR> result(7, NONE);
 
     bool flag = false;
