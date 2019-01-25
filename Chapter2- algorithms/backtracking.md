@@ -9,7 +9,7 @@
     
     处理这类的问题有通用的原型算法，一个是递归（Backtrackrec）,另一个是迭代（Backtrackiter）.
     
-(```)
+```
    Backtrackrec:
    输入：集合 X1,X2,X3....Xn的清楚或者隐含的描述
    输出：解向量 v=(x1,x2,x3....xn)
@@ -23,9 +23,9 @@
       2 xk=x; 然后将其加入v
       3 if v为最终解 then set flag=true and exit
       4 else if v是部分解 then advance（k+1）
-(```)    
+```   
 
-(```)
+```
    Backtrackiter:
    输入：集合 X1,X2,X3....Xn的清楚或者隐含的描述
    输出：解向量 v=(x1,x2,x3....xn)
@@ -43,7 +43,7 @@
       12 end while
       13 if flag then output v
       14 else output "no solution"
-(```)   
+```  
 
 # 设计回溯算法的核心是：最终解和部分解定义的代码实现
 
