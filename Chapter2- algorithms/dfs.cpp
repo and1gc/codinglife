@@ -21,13 +21,13 @@ enum GRAPHTYPE
 struct GRAPH
 {
     GRAPHTYPE type;
-    int N;//½áµãÊı
-    int time;//Ê±¼äÁ÷
-    vector<vector<int>> edge;//´æ´¢±ßµÄĞÅÏ¢£¬ÓĞÏò±ß»òÕßÎŞÏò±ß
-    vector<int> pi;//´æ´¢¸¸½áµã
-    vector<COLOR> color;//´æ´¢½áµãÑÕÉ«
-    vector<int> findtime;//·¢ÏÖµÄÊ±¼ä
-    vector<int> endtime;//½áÊøµÄÊ±¼ä
+    int N;//ç»“ç‚¹æ•°
+    int time;//æ—¶é—´æµ
+    vector<vector<int>> edge;//å­˜å‚¨è¾¹çš„ä¿¡æ¯ï¼Œæœ‰å‘è¾¹æˆ–è€…æ— å‘è¾¹
+    vector<int> pi;//å­˜å‚¨çˆ¶ç»“ç‚¹
+    vector<COLOR> color;//å­˜å‚¨ç»“ç‚¹é¢œè‰²
+    vector<int> findtime;//å‘ç°çš„æ—¶é—´
+    vector<int> endtime;//ç»“æŸçš„æ—¶é—´
 };
 
 void DFS_visit(GRAPH &G,int p)
@@ -46,7 +46,7 @@ void DFS_visit(GRAPH &G,int p)
     G.color[p] = BLACK;
     G.time += 1;
     G.endtime[p] = G.time;
-    cout << p << " ";
+    cout << p << " ";//å°†è¾“å‡ºçš„ç»“æœé€†è½¬ï¼Œå°±æ˜¯æ‹“æ‰‘æ’åº
 }
 
 void DFS(GRAPH &G)
