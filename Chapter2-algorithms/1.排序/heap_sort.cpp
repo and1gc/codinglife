@@ -7,8 +7,8 @@ using namespace std;
 #define left(x) (2*x+1)
 #define right(x) (2*x+2)
 
-//i表示结点，low和high分别表示范围
-//维护堆的削智
+//i琛ㄧず缁撶偣锛宭ow鍜宧igh鍒嗗埆琛ㄧず鑼冨洿
+//缁存姢鍫嗙殑鎬ц川
 void MaxHeapify(vector<int> &vec, int i, int low, int high)
 {
     int l = left(i);
